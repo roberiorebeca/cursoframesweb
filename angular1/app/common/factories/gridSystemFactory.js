@@ -12,5 +12,5 @@ angular.module('primeiraApp').factory('gridSystem', [function() {
     return classes
   }
 
-  return = { toCssClasses }
+  return { toCssClasses }
 }])
