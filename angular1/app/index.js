@@ -1,4 +1,4 @@
-module.exports('primeiraApp', [
+angular.module('primeiraApp', [
   'ui.router',
   'ngAnimate',
   'toastr'

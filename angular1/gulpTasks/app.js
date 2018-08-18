@@ -1,9 +1,9 @@
 const gulp = require('gulp')
-const babel = require('gulp-babel')
-const uglify = require('gulp-uglify')
+const htmlmin = require('gulp-htmlmin')
 const uglifycss = require('gulp-uglifycss')
 const concat = require('gulp-concat')
-const htmlmin = require('gulp-htmlmin')
+const babel = require('gulp-babel')
+const uglify = require('gulp-uglify')
 
 gulp.task('app', ['app.html', 'app.css', 'app.js', 'app.assets'])
 
