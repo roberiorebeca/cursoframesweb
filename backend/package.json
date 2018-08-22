@@ -10,9 +10,11 @@
   "author": "Robério Rebeca",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-query-int": "^1.0.1",
+    "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.10",
     "mongoose": "^5.2.8",
     "mongoose-paginate": "^5.0.3",
